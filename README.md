@@ -1,9 +1,9 @@
-# ClearFolio – Responsive Portfolio Template
+# Responsive Portfolio Template
 
 ## Welcome to your next stunning portfolio!
 
 This is a clean, modern, and highly customizable front-end developer portfolio template designed to help you showcase your skills, projects, and services in the most engaging way possible. Built with the latest web technologies, it ensures a responsive, performant, and visually appealing experience across all devices.
-This is a personal portfolio template with demo content using the name "John Doe". You can easily replace it with your own.
+This is a personal portfolio template with demo content using the name "Sangeetha Pendala". You can easily replace it with your own.
 
 Whether you're a seasoned developer or just starting, this template provides a perfect foundation to establish your online presence and impress potential clients or employers.
 
@@ -13,7 +13,6 @@ Whether you're a seasoned developer or just starting, this template provides a p
 
 Experience the template in action!
 
- [**View Live Website Demo**](https://portfolio-template-one-inky.vercel.app/)
 
 ##  Key Features
 
@@ -77,66 +76,4 @@ Unzip the downloaded file and open the project folder in your favorite code edit
 - **Resume:** Replace `assets/resume-john-doe.pdf` with your actual PDF resume. Update the `href` in the "Download Resume" button.
 - **Images:** Replace `assets/images/John-Doe.jpg` with your profile picture. Update other image paths as needed.
 
-### 4. **Customize Styling (`styles.css` & `tailwind.config.js`)**
-
-- **Colors:** The primary colors are defined in `tailwind.config.js` within `index.html` (under `<script> tailwind.config = {...}`):
-  - `bg: "#111111"` (background)
-  - `text: "#ffffff"` (primary text)
-  - `accent: "#ff004f"` (highlight/accent color)
-    You can easily change these values to match your brand.
-- **Fonts:** Google Fonts are linked in the `<head>` of `index.html`. You can modify the `fontFamily` in `tailwind.config.js` to use different fonts.
-- **Custom CSS:** For more specific styling adjustments, use `styles.css`. This file is already linked and ready for your custom rules.
-- **Tailwind CSS:** For fine-grained control over layout and component styling, refer to the Tailwind CSS documentation and directly modify the utility classes in `index.html`.
-
-### 5. **Customize JavaScript (`script.js`)**
-
-- **Typewriter Effect:**
-  - `nameToType`: Change `"John Doe"` to your name.
-  - `typingSpeed`, `erasingSpeed`, `delayBeforeErase`, `delayBeforeType`: Adjust these variables to control the speed and timing of the typing and erasing animation.
-- **Lottie Animations:**
-  - The background bubble animation uses a Lottie JSON file. You can replace `https://assets4.lottiefiles.com/packages/lf20_tll0j4bb.json` with your own Lottie animation URL.
-  - Similarly, for the contact section, update the `path` for `contact-lottie`.
-
-### 6. **Deployment**
-
-- This is a static HTML, CSS, and JavaScript website. You can host it on any static hosting service like:
-
-  - GitHub Pages (as demonstrated by the live demo link)
-  - Netlify
-  - Vercel
-  - Firebase Hosting
-  - Any traditional web server (Apache, Nginx)
-
-  Simply upload the entire project folder to your hosting provider.
-
----
-
-##  Important Notes
-
-- **Contact Form:** The contact form is purely a UI (User Interface). To make it send emails, you will need to integrate it with a backend service (e.g., Formspree, Netlify Forms, custom server-side script with Node.js, PHP, etc.). This template _does not_ include backend functionality.
-- **Resume & Profile Picture:** Remember to replace the placeholder `resume-john-doe.pdf` and `John-Doe.jpg` with your actual files.
-- **External Libraries:** This template uses CDN links for AOS, Lottie, and Tailwind CSS. While convenient, for production, you might consider self-hosting these libraries for better control and performance, especially if you plan extensive custom builds.
-
----
-
-##  Credits
-
-- **Tailwind CSS:** For the fantastic utility-first framework.
-- **AOS (Animate On Scroll):** Michalsnik for the smooth scroll animations.
-- **LottieFiles:** For providing an extensive library of animations and the Lottie Web player.
-- **Google Fonts:** For the beautiful typography.
-- **Unsplash / Pexels:** (If you used any stock photos, specify here, otherwise remove)
-
----
-
-##  Support
-
-If you have any questions or need assistance with this template, please don't hesitate to reach out through the Envato comments section or my profile page. I'm here to help you get the most out of your purchase!
-
----
-
-**Thank you for choosing John Doe – Modern Front-End Developer Portfolio Template!**
-We hope it helps you land your next big opportunity.
-
----
 
